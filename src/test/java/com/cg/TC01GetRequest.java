@@ -30,7 +30,7 @@ public class TC01GetRequest {
 		// Status Code Validation
 
 		int actualStatusCode = response.getStatusCode();
-		int expectedStatusCode = 201;
+		int expectedStatusCode = 200;
 
 		assertEquals(actualStatusCode, expectedStatusCode);
 
