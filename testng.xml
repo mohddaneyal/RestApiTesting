@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.cg.util.GenerateExtentReport"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.cg.TC02PostReqUest"/>
+      <class name="com.cg.TC03_BodyAuthentication"/>
+      <class name="com.cg.TC04_HeaderTest"/>
+      <class name="com.cg.TC06_ExtractingValuesFromResponse"/>
+      <class name="com.cg.TC01GetRequest"/>
+      <class name="com.cg.TC05_BasicAuthentication"/>
+      <class name="com.cg.datadriven.DataDrivenTest_CreateUser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
